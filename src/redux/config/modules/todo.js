@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 const ADD_TODO = "ADD_TODO";
 const DELETE_TODO = "DELETE_TODO";
 const TOGGLE_TODO = "TOGGLE_TODO";
@@ -25,7 +27,7 @@ export const toggleTodo = (payload) => {
 // 초기 상태값
 const initialState = [
   {
-		id: 1, // id는 모두 고유값이어야 함!
+		id: nanoid(), // id는 모두 고유값이어야 함!
 		title: "리액트 강의보기",
 		body: "챕터 1부터 챕터 12까지 복습",
 		isDone: false
