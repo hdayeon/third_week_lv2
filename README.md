@@ -1,5 +1,8 @@
 # Todo List 만들기
 
+배포 주소
+https://third-week-lv2.vercel.app/
+
 Lv.1  를 react-router-dom, styled-components, redux를 사용해서 다시 만들기 <br/>
 useState와 redux를 혼용 <br/>
 vite + yarn app 사용
