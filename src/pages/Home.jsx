@@ -17,7 +17,7 @@ const Home = () => {
 
   // 새 todo 추가 기능
   const addTodoHandler = () => {
-    if (title === "" || body === "") { // 빈값 유효성 검사
+    if (!title || !body) { // 빈값 유효성 검사
       return alert("빈칸에 내용을 입력하세요.");
     } else {
       const newTodo = {
